@@ -1,0 +1,22 @@
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
+x=np.linspace(0,10,20)
+y=x*x
+z=x+y
+
+print(x)
+print(y)
+print(z)
+
+#plt.plot(x,y)
+#plt.plot(x,x)
+#plt.plot(y,x)
+#plt.plot(z,x)
+#plt.plot(y,z)
+
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.title('Graph')
